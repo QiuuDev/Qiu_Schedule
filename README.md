@@ -17,12 +17,6 @@
 ## 💡 Tentang Proyek
 **Qiu's Schedule** adalah aplikasi manajemen jadwal berbasis web yang dikembangkan menggunakan PHP Native. Proyek ini dirancang untuk memberikan antarmuka yang bersih, fungsionalitas yang cepat tanpa framework yang berat, serta sistem autentikasi dan analitik jadwal yang komprehensif.
 
-> **Visual Tour:**
-> 
-> | Halaman Login | Dasbor Utama | Halaman Analitik |
-> | :---: | :---: | :---: |
-> | `<img src="assets/images/login.jpeg" width="250">` | `<img src="assets/images/dashboard.jpeg" width="250">` | `<img src="assets/images/analitik.jpeg" width="250">` |
-
 ---
 
 ## ✨ Fitur Utama
