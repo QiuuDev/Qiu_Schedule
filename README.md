@@ -60,6 +60,4 @@ Pastikan Anda sudah menginstal aplikasi web server lokal seperti **XAMPP**, **La
    Buka browser Anda dan akses:
    ```text
    http://localhost/qiu-schedule
-=======
-# Qiu_Schedule
-website penjadwalan
+
