@@ -1,3 +1,11 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QiuuDev/QiuuDev/main/assets/schedule-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/QiuuDev/QiuuDev/main/assets/schedule-light.svg">
+  <img src="https://raw.githubusercontent.com/QiuuDev/QiuuDev/main/assets/schedule-dark.svg" width="100%" alt="Qiu_Schedule — a QiuuDev project">
+</picture>
+
+[← QiuuDev / Developer profile](https://github.com/QiuuDev)
+
 <div align="center">
   
   # 📅 Qiu's Schedule
@@ -55,3 +63,4 @@ Pastikan Anda sudah menginstal aplikasi web server lokal seperti **XAMPP**, **La
    ```text
    http://localhost/qiu-schedule
 
+```
