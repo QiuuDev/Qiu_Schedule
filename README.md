@@ -62,5 +62,17 @@ Pastikan Anda sudah menginstal aplikasi web server lokal seperti **XAMPP**, **La
    Buka browser Anda dan akses:
    ```text
    http://localhost/qiu-schedule
+   ```
 
-```
+## 📁 Struktur Direktori
+
+- `api/` — endpoint aplikasi.
+- `assets/` — aset antarmuka.
+- `config/` — konfigurasi aplikasi dan database.
+- `helpers/` — fungsi pendukung.
+- `uploads/` — direktori unggahan.
+- `db_qiu_schedule.sql` — skema dan data awal database.
+
+---
+
+Dikembangkan oleh **[QiuuDev / BoringDev](https://github.com/QiuuDev)**.
