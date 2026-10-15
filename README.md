@@ -1,11 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/QiuuDev/QiuuDev/main/assets/schedule-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/QiuuDev/QiuuDev/main/assets/schedule-light.svg">
-  <img src="https://raw.githubusercontent.com/QiuuDev/QiuuDev/main/assets/schedule-dark.svg" width="100%" alt="Qiu_Schedule — a QiuuDev project">
-</picture>
-
-[← QiuuDev / Developer profile](https://github.com/QiuuDev)
-
 <div align="center">
   
   # 📅 Qiu's Schedule
@@ -24,6 +16,12 @@
 
 ## 💡 Tentang Proyek
 **Qiu's Schedule** adalah aplikasi manajemen jadwal berbasis web yang dikembangkan menggunakan PHP Native. Proyek ini dirancang untuk memberikan antarmuka yang bersih, fungsionalitas yang cepat tanpa framework yang berat, serta sistem autentikasi dan analitik jadwal yang komprehensif.
+
+> **Visual Tour:**
+> 
+> | Halaman Login | Dasbor Utama | Halaman Analitik |
+> | :---: | :---: | :---: |
+> | `<img src="assets/images/login.jpeg" width="250">` | `<img src="assets/images/dashboard.jpeg" width="250">` | `<img src="assets/images/analitik.jpeg" width="250">` |
 
 ---
 
@@ -62,17 +60,4 @@ Pastikan Anda sudah menginstal aplikasi web server lokal seperti **XAMPP**, **La
    Buka browser Anda dan akses:
    ```text
    http://localhost/qiu-schedule
-   ```
 
-## 📁 Struktur Direktori
-
-- `api/` — endpoint aplikasi.
-- `assets/` — aset antarmuka.
-- `config/` — konfigurasi aplikasi dan database.
-- `helpers/` — fungsi pendukung.
-- `uploads/` — direktori unggahan.
-- `db_qiu_schedule.sql` — skema dan data awal database.
-
----
-
-Dikembangkan oleh **[QiuuDev / BoringDev](https://github.com/QiuuDev)**.

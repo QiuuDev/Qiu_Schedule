@@ -1,14 +1,19 @@
 <?php
 class Database {
-    private $host = "localhost";
+    private $host = 'localhost';
     private $db_name = "db_qiu_schedule";
-    private $username = "root";
-    private $password = "";
+    private $username = 'root';
+    private $password = '';
 
     public $conn;
 
     // fungsi untuk mendapatkan koneksi database wak
     public function getConnection() {
+        $this->host = getenv("DB_HOST") ?: $this->host;
+        $this->db_name = getenv("DB_NAME") ?: $this->db_name;
+        $this->username = getenv("DB_USER") ?: $this->username;
+        $this->password = getenv("DB_PASS") ?: $this->password;
+
         $this->conn = null;
         try {
             $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->db_name, $this->username, $this->password);
